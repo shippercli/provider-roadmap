@@ -98,3 +98,5 @@ Each provider should remain its own package and repository.
 - Provider catalog spans at least five distinct deployment models
 - Capability support is explicit per provider
 - Documentation clearly separates core workflow from provider-specific behavior
+
+[![advertisement](https://ads.servead.net/i/91c70ef9-b2e0-4f39-850a-04be7caf2c75.svg)](https://ads.servead.net/c/91c70ef9-b2e0-4f39-850a-04be7caf2c75)
