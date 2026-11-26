@@ -8,6 +8,10 @@ Broaden Shipper from a panel-focused deployment tool into a provider-agnostic de
 
 - Server control panels: Ploi, Laravel Forge, EasyPanel
 - Shared hosting panels: cPanel
+- Self-managed container app platforms: Coolify
+- Prebuilt file deployment: [FTP / FTPS 1.0.0](https://github.com/shippercli/provider-ftp/releases/tag/v1.0.0) (hosting compatibility beta)
+
+FTP/FTPS provides a file-transfer fallback for existing hosting. It does not execute commands, provision servers or manage runtimes, so generic SSH remains a separate gap. See the [verification matrix](https://github.com/shippercli/provider-gap-matrix#distribution-and-verification) for release evidence and limitations.
 
 ## Key gap
 
@@ -26,7 +30,7 @@ Current provider count overstates actual coverage breadth. Most existing provide
 ### Phase 1: coverage foundation
 
 1. SSH / Generic Server
-2. Coolify
+2. Coolify (released; continue expanding verified coverage)
 3. Vercel
 4. Railway or Render
 
